@@ -1,0 +1,11 @@
+package tv;
+
+public class App {
+
+	public static void main(String[] args) {
+		Tv tv = new Tv();
+		System.out.println(tv);
+		
+	}
+
+}

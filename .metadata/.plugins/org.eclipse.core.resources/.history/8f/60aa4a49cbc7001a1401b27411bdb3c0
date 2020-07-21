@@ -1,0 +1,12 @@
+package arr;
+
+public class Arr1 {
+	public static void main(String[] args) {
+		int a [] = new int[3];
+//		int [] b = new int[3];
+//		int c [] = {1, 2, 3};
+		int i = 10;
+		String str = "ABC"
+	}
+
+}

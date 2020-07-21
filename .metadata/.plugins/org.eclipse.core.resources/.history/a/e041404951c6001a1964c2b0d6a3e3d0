@@ -1,0 +1,13 @@
+package op;
+
+public class Ws1 {
+
+	public static void main(String[] args) {
+		int x = 10;
+		int y = 20;
+		String result;
+		result = (x > y) ? "Win" : "Lose";
+		System.out.println(result);
+	}
+
+}

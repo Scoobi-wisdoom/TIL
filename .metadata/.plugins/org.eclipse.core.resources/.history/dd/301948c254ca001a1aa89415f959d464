@@ -1,0 +1,16 @@
+package car;
+
+public class Car2 {
+	String name;
+	String color;
+	int size;
+	double fuel;
+	String fuelType;
+	String scale;
+	int Passenger;
+	boolean power;
+	int tires;
+	
+	
+	
+}

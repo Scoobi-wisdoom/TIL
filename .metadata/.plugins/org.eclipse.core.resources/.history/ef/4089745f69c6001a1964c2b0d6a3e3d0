@@ -1,0 +1,12 @@
+package math;
+
+public class Ma1 {
+
+	public static void main(String[] args) {
+		// 난수 생성
+		// 0.0 <= x < 1.0
+		double d = Math.random();
+		System.out.println(d);
+	}
+
+}

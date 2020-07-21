@@ -1,0 +1,20 @@
+package forwhile;
+
+public class While1 {
+	public static void main(String[] args) {
+		for(int i=1; i<=5; i++) {
+			System.out.println(i);
+		}
+		System.out.println("--------------");
+		// while
+		int j = 0;
+		int sum = 0;
+		while(j<=10) {
+			j++;
+			System.out.println(j);
+			sum += j;
+			
+		}
+		System.out.println((double)sum/j);
+	}
+}

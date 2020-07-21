@@ -1,0 +1,10 @@
+package workshop2;
+
+public class Test04 {
+	
+	public static void main(String args[]) {
+		int [] arr3 = new int[5];
+		
+	}
+
+}

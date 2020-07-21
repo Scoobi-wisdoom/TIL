@@ -1,0 +1,15 @@
+package calc;
+
+public class Calc {
+	double a;
+	double b;
+	
+	public Calc() {
+		
+	}
+	
+	public void add() {
+		
+	}
+
+}

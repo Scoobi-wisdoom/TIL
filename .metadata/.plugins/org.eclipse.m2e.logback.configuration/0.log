@@ -1,0 +1,23 @@
+2020-07-13 15:47:52,820 [Worker-5: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is not available. Remote download required.
+2020-07-13 16:08:32,681 [Worker-6: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2020-07-14 09:34:07,750 [Worker-5: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2020-07-15 09:15:28,038 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2020-07-15 12:45:58,757 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2020-07-16 09:09:16,383 [Worker-5: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2020-07-16 15:56:04,683 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2020-07-17 08:57:38,315 [Worker-6: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2020-07-20 08:59:11,444 [Worker-5: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2020-07-21 08:59:19,039 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2020-07-21 08:59:33,985 [Start Help Server] INFO  org.eclipse.jetty.util.log - Logging initialized @33389ms to org.eclipse.jetty.util.log.Slf4jLog
+2020-07-21 08:59:34,188 [Start Help Server] INFO  org.eclipse.jetty.server.Server - jetty-9.4.29.v20200521; built: 2020-05-27T11:26:53.365Z; git: 77c232aed8a45c818fd27232278d9f95a021095e; jvm 1.8.0_251-b08
+2020-07-21 08:59:34,203 [Start Help Server] INFO  org.eclipse.jetty.server.session - DefaultSessionIdManager workerName=node0
+2020-07-21 08:59:34,203 [Start Help Server] INFO  org.eclipse.jetty.server.session - No SessionScavenger set, using defaults
+2020-07-21 08:59:34,203 [Start Help Server] INFO  org.eclipse.jetty.server.session - node0 Scavenging every 600000ms
+2020-07-21 08:59:34,235 [Start Help Server] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@37f52a54{/help,null,AVAILABLE}
+2020-07-21 08:59:34,250 [Start Help Server] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@25a2189c{HTTP/1.1, (http/1.1)}{127.0.0.1:56973}
+2020-07-21 08:59:34,250 [Start Help Server] INFO  org.eclipse.jetty.server.Server - Started @33657ms
+2020-07-21 08:59:34,250 [Start Help Server] INFO  org.eclipse.jetty.server.session - node0 Scavenging every 660000ms
+2020-07-21 09:26:03,819 [Stop Help Server] INFO  o.e.jetty.server.AbstractConnector - Stopped ServerConnector@25a2189c{HTTP/1.1, (http/1.1)}{127.0.0.1:0}
+2020-07-21 09:26:03,819 [Stop Help Server] INFO  org.eclipse.jetty.server.session - node0 Stopped scavenging
+2020-07-21 09:26:03,860 [Stop Help Server] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@37f52a54{/help,null,UNAVAILABLE}
+2020-07-21 09:26:15,680 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.

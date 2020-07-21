@@ -1,0 +1,10 @@
+package arr;
+
+public class Arr2 {
+	
+	public static void main(String arg[]) {
+		int a[] = new int[5];  // 0, 1, 2, 3, 4
+		
+	}
+
+}

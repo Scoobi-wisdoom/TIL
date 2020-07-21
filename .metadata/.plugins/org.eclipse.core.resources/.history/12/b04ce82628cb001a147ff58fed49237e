@@ -1,0 +1,31 @@
+package lotto;
+
+import java.util.Random;
+
+public class LottoGame {
+	int [] luckyNum;
+	
+	static int play;
+	static long total;
+	static int win;
+	
+	public LottoGame() {
+		
+	}
+	
+	// 여기부터
+	public int matchNum(int [] user) {
+		int result = 0;
+		
+		// user의 size와 같은 luckyNum array를 만든다.
+		for (i=0; i< user.length; i++) {
+			
+		}
+		Random r = new Random();
+		r.nextInt(45) + 1;
+		
+		return result;
+	}
+	// 여기까지
+	
+}

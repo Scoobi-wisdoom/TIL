@@ -1,0 +1,19 @@
+package forwhile;
+
+import java.util.Scanner;
+
+public class Ws4 {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		String input = "";
+		input = sc.nextLine();
+		
+		if (input.equals("A")) {
+			System.out.println("영문 이름을 입력하시오.");
+			
+		}
+		
+		sc.close();
+	}
+
+}

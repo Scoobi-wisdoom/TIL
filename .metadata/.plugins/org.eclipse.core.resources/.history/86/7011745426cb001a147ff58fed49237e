@@ -1,0 +1,19 @@
+package lotto;
+
+public class LottoGame {
+	int [] luckyNum;
+	
+	static int play;
+	static long total;
+	static int win;
+	
+	public LottoGame() {
+		
+	}
+	
+	public int matchNum() {
+		int result = 0;
+		return result;
+	}
+	
+}

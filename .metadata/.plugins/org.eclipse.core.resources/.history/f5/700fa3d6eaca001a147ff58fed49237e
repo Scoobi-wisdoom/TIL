@@ -1,0 +1,52 @@
+package student;
+
+public class Student {
+	// Member Variable
+	String name;
+	String id;
+	int age;
+	double score [];
+	
+	// Constructor
+	public Student() {}
+	public Student(String name, int age) {
+		this.name = name;
+		this.age = age;
+	}
+	public Student(String name, String id, int age) {
+		this.name = name;
+		this.id = id;
+		this.age = age;
+	}
+	
+	// Member Function
+	public void setScore(double score []) {
+		if (score.length > 4) {
+			// System.out.println("Too many inputs"); // Don't use print in a class. 
+			return;
+		}
+		this.score = score;
+	}
+	
+	public double getSum() {
+		double sum = 0.0;
+		
+		for (int i=0; i< this.score.length; i++) {
+			sum += this.score[i];
+		}
+		
+		return sum;
+	}
+	
+	public double getAvg() {
+		double avg = 0.0;
+		
+		return avg;
+	}
+	
+	public String getLevel() {
+		String level = "";
+		
+		return level;
+	}
+}

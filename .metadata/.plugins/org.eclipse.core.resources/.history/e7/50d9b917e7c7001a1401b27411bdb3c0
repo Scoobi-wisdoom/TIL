@@ -1,0 +1,11 @@
+package str;
+
+public class Str1 {
+	
+	public static void main(String args[]) {
+		char c = 'A';
+		String s1 = "A";
+		
+	}
+
+}

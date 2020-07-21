@@ -1,0 +1,16 @@
+package ifelse;
+
+import java.util.Random;
+
+public class If4 {
+
+	public static void main(String[] args) {
+		Random r = new Random();
+		int ko = r.nextInt(100) +1;
+		int en = r.nextInt(100) +1;
+		int ma = r.nextInt(100) +1;
+		int si = r.nextInt(100) +1;
+		
+	}
+
+}

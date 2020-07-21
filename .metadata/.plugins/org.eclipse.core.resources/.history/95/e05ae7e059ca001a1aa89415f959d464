@@ -1,0 +1,57 @@
+package car;
+
+public class Car2 {
+	String name;
+	String color;
+	int size;
+	double fuel;
+	double fuelSize;
+	String scale;
+	int passenger;
+	double speed;
+	double maxSpeed;
+	boolean power;
+
+	
+	public Car2() {
+		
+	}
+	public Car2(String name, String color, double fuelSize, double maxSpeed) {
+		this.name = name;
+		this.color = color;
+		this.size = 3000;
+		this.fuel = 0;
+		this.fuelSize = fuelSize;
+		this.scale = "Big";
+		this.passenger = 8;
+		this.speed = 0;
+		this.maxSpeed = maxSpeed;
+		this.power = false;
+
+	}
+	
+	public void powerOn() {
+		this.power = true;
+	}
+	public void powerOff() {
+		this.power = false;
+	}
+	public void speedChange(double speedchange) {
+		if (this.speed + speedchange > this.maxSpeed) {
+			this.speed = this.maxSpeed;
+		}
+		if (this.speed + speedchange < 0) {
+			this.maxSpeed = 0;
+		}
+		this.speed += speedchange;
+	}
+	public void fuelUp() {
+		
+	}
+	public void fuelDown() {
+		
+	}
+	
+
+	
+}

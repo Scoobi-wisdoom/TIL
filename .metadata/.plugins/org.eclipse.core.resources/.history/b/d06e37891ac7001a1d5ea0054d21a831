@@ -1,0 +1,22 @@
+package ifelse;
+
+import java.util.Random;
+
+public class Switch1 {
+
+	public static void main(String[] args) {
+		Random r = new Random();
+		int i = r.nextInt(3) + 1;
+		String item = "";
+		switch(i) {
+		case 1: item = "phone";
+		case 2: item = "TV";
+		case 3: item = "ipad";
+		case 4: item = "pod";
+		default: item = "Next...";
+		}
+		
+		System.out.println("Item: "+item);
+	}
+
+}

@@ -1,0 +1,27 @@
+package tv;
+
+public class Tv {
+	// 속성 attributes
+	String color;
+	boolean power;
+	int channel;
+	// 기능 behaviors, operations, functions, methods
+	public void powerOn() {
+		power = true
+	}
+	public void powerOff() {
+		power = false
+	}
+	public void channelUp() {
+		channel += 1
+	}
+	public void channelDown() {
+		channel -= 1
+	}
+	@Override
+	public String toString() {
+		return "Tv [color=" + color + ", power=" + power + ", channel=" + channel + "]";
+	}
+	
+	
+}

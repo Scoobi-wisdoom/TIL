@@ -1,0 +1,16 @@
+package student;
+
+public class Student {
+	// Member Variable
+	String name;
+	String id;
+	int age;
+	double score [];
+	
+	// Constructor
+	public Student() {
+		
+	}
+	
+	// Member Function
+}

@@ -1,0 +1,41 @@
+package car;
+
+public class Car2 {
+	String name;
+	String color;
+	int size;
+	double fuel;
+	String scale;
+	int passenger;
+	boolean power;
+
+	
+	public Car2() {
+		
+	}
+	public Car2(String name, String color, int size, double fuel, String scale, int passenger, boolean power) {
+
+	}
+	
+	public void powerOn() {
+		
+	}
+	public void powerOff() {
+		
+	}
+	public void speedUp() {
+		
+	}
+	public void speedDown() {
+		
+	}
+	public void fuelUp() {
+		
+	}
+	public void fuelDown() {
+		
+	}
+	
+
+	
+}

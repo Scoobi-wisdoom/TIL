@@ -1,0 +1,12 @@
+package tv;
+
+public class Tv {
+	// 속성 attributes
+	String color;
+	boolean power;
+	int channel;
+	// 기능 behaviors, operations, functions, methods
+	public void powerOn() {
+		
+	}
+}

@@ -1,0 +1,22 @@
+package op;
+
+public class Ws4 {
+
+	public static void main(String[] args) {
+		// 랜덤하게 1~ 100점을 4개의 변수에 생성 한다.
+		int num1 = (int)(Math.random() * 100) + 1;
+		int num2 = (int)(Math.random() * 100) + 1;
+		int num3 = (int)(Math.random() * 100) + 1;
+		int num4 = (int)(Math.random() * 100) + 1;
+		
+		double mean = (double)(num1 + num2 + num3 + num4) / 4;
+		char grade = 0;
+		grade = (mean >= 90) ? 'A' : 
+				((mean >= 80) ? 'B' :
+				((mean >= 70) ? 'C' :
+				((mean >= 60) ? 'D' : 'F')));
+		
+		System.out.println("Grade: "+grade+", Mean: "+mean);
+	}
+
+}

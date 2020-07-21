@@ -1,0 +1,13 @@
+package student;
+
+public class Test {
+	
+	public static void main(String args[]) {
+		Student s1 = new Student("Lee", "100", 20);
+		System.out.println(s1); 
+		
+		s1.setScore({80, 90, 70, 80});
+		
+	}
+
+}

@@ -1,0 +1,10 @@
+package guess;
+
+public class Game {
+	
+	int number;
+	int count;
+	
+	static int play;
+
+}

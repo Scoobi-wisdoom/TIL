@@ -1,0 +1,11 @@
+package car;
+
+public class Car {
+	String name;
+	String color;
+	int size;
+	int gasSize;
+	int gas;
+	double mileage;
+	
+}
