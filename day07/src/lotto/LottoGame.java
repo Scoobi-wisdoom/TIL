@@ -13,7 +13,8 @@ public class LottoGame {
 	public LottoGame() {
 		
 	}
-	
+
+//############################################################### 여기부터 	
 	public int manual(String input, int [] user, int i) {
 		int result = 0;
 		// 숫자 여부 체크
@@ -27,24 +28,21 @@ public class LottoGame {
 		
 		if (result != -2) {
 		// 구간 숫자 여부 체크
-			int input_num = 0;
-			input_num = Integer.parseInt(input);
+			result = Integer.parseInt(input);
 			
-			if (input_num < 1 || input_num > 45) {
-				i--;
+			if (result < 1 || result > 45) {
 	            result = -1;
 	        } else {
     		// 중복 체크
 			if (i > 0) {
 				for (int j = 0; j < i; j++) {
-					if (input_num == user[j]) {
+					if (result == user[j]) {
 						result = -3;
-						i--;
 						break;
 						}
 					}
 				} else {
-					user[i] = input_num;
+					user[i] = result;
 				}
 	        }
 		
@@ -67,6 +65,6 @@ public class LottoGame {
 		}
 		return count;
 	}
-	// 여기까지
+//############################################################### 여기까지	
 	
 }
