@@ -1,7 +1,7 @@
 package calc;
 
 public class Calc {
-	
+	int data;
 	
 	public static int add(int a, int b) {		
 		int add = 0;
