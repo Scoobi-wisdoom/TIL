@@ -17,6 +17,10 @@ public class MobileTest {
 		System.out.println();
 		
 		// 각각의 Mobile 객체에 10분씩 충전
+		int time1 = 10;
+		l.charge(time1);
+		o.charge(time1);
+		System.out.printf("%d분 충전%n", time1);
 		
 		// 10분 충전 후 객체 정보 출력
 		System.out.println(" Mobile		Battery		OS ");
@@ -26,6 +30,10 @@ public class MobileTest {
 		System.out.println();
 		
 		// 각각의 Mobile 객체에 5분씩 통화
+		int time2 = 5;
+		l.operate(time2);
+		o.operate(time2);
+		System.out.printf("%d분 통화%n", time2);
 		
 		// 5분 통화 후 객체 정보 출력
 		System.out.println(" Mobile		Battery		OS ");

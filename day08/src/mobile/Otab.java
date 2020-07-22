@@ -8,15 +8,15 @@ public class Otab extends Mobile{
 	}
 	
 	// overriding
-//	@Override
-//	public int operate(int time) {
-//		
-//	}
-//	
-//	@Override
-//	public int charge(int time) {
-//		
-//	}
+	@Override
+	public int operate(int time) {
+		return super.getBatterySize() - time * 12;
+	}
+	
+	@Override
+	public int charge(int time) {
+		return super.getBatterySize() + time * 8;
+	}
 	@Override
 	public String toString() {
 		return super.toString();

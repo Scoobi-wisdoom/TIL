@@ -37,20 +37,18 @@ public class Mobile {
 	public void setOsType(String osType) {
 		this.osType = osType;
 	}
+	
 
 	
 	// 1분 사용 시 배터리 10 감소. 잔여 배터리 리턴.
 	public int operate(int time) {
-		int result = 0;
+		return getBatterySize() - time * 10;
+		}
 
-		return result;
-	}
 	
 	// 1분 충전 시 배터리 10 증가. 잔여 배터리 리턴.
 	public int charge(int time) {
-		int result = 0;
-
-		return result;
+		return getBatterySize() + time * 10;
 	}
 	
 
