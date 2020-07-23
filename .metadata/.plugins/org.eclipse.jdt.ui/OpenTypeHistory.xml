@@ -1,2 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<typeInfoHistroy/>
+<typeInfoHistroy>
+<typeInfo handle="=day09/src&lt;db2{Db.java[Db" modifiers="1025" timestamp="1595481463678"/>
+<typeInfo handle="=day09/src&lt;game{Unit.java[Unit" modifiers="1025" timestamp="1595482746598"/>
+<typeInfo handle="=day09/src&lt;shape{Shape.java[Shape" modifiers="1025" timestamp="1595488185757"/>
+<typeInfo handle="=day09/src&lt;game2{Unit.java[Unit" modifiers="1025" timestamp="1595491557146"/>
+<typeInfo handle="=day09/src&lt;game2{Mechanic.java[Mechanic" modifiers="1025" timestamp="1595491908054"/>
+<typeInfo handle="=day09/src&lt;game2{Human.java[Human" modifiers="1025" timestamp="1595492043589"/>
+</typeInfoHistroy>
