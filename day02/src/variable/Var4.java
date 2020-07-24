@@ -7,9 +7,9 @@ public class Var4 {
 		int b = 10;
 		int c = a+b;
 		String s1 = "ABC";
-		String s1 = "DEF";
-		String s2 = "ABC";
-		System.out.printf("Result: %d, %d, %d " + s , a, b, c);
+		String s2 = "DEF";
+		String s3 = "ABC";
+		System.out.printf("Result: %s, %s, %s, %d, %d, %d ", s1, s2, s3, a, b, c);
 
 	}
 

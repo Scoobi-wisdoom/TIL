@@ -30,5 +30,11 @@ public class Tank extends Unit {
 		return "Tank [x=" + x + ", y=" + y + ", name=" + name + "]";
 	}
 
+	@Override // This method is inherited from the abstract super class but this is not a method of this class.
+	void stimPack() {
+		// TODO Auto-generated method stub
+		
+	}
+
 
 }

@@ -29,6 +29,13 @@ public class Marine extends Unit {
 		return "Marine [x=" + x + ", y=" + y + ", name=" + name + "]";
 	}
 	
+	// This method is inherited from the abstract super class but this is not a method of this class.
+	@Override
+	void changeMode() {
+		// TODO Auto-generated method stub
+		
+	}
+	
 	
 
 }

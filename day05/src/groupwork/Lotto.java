@@ -25,6 +25,7 @@ public class Lotto {
 					i--;
 					continue lotto;
 				}
+				sc.close();
 
 				// 입력받은 것이 숫자가 맞는지 체크한다.
 				// String을 char array로 변환하여 체크한다.
@@ -110,7 +111,6 @@ public class Lotto {
 			
 		} // 전체  while 루프
 		
-		sc.close();
 	}
 	
 }

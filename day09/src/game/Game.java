@@ -34,6 +34,15 @@ public class Game {
 				((Tank)u).changeMode();
 			}
 		}
+		
+		// By adding subclasses' methods in the abstract super class, the following is possible.
+		for(Unit u:units) {
+			if(u instanceof Marine) {
+				u.stimPack();
+			} else if(u instanceof Tank) {
+				u.changeMode();
+			}
+		}
 
 	}
 

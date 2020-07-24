@@ -17,6 +17,8 @@ public abstract class Unit {
 	
 	
 	abstract void move(int x, int y);
+	abstract void stimPack();  // This method is to be a method of one of the subclasses;
+	abstract void changeMode(); // This method is to be a method of one of the subclasses;
 	public void stop() {
 		System.out.println(name+" Stopped");
 	}

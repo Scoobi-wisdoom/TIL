@@ -1,8 +1,0 @@
-package arr;
-
-public class Arr2 {
-	public static void main(String arg[]) {
-		
-	}
-
-}
