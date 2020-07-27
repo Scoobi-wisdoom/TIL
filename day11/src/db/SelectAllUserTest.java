@@ -1,0 +1,23 @@
+package db;
+
+import java.util.ArrayList;
+
+public class SelectAllUserTest {
+
+	public static void main(String[] args) {
+		Db<String, User> db = new UserDb("127.0.0.1", "db2", "db2");
+		ArrayList<User> list = null;
+		try {
+			list = db.select();
+			for(User u:list) {
+				System.out.println(u);
+			}
+		} catch (Exception e) {
+			System.out.println("----------");
+			System.out.println("ERROR");
+			e.printStackTrace();
+		}
+
+	}
+
+}

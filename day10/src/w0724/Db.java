@@ -1,5 +1,7 @@
 package w0724;
 
+import java.util.ArrayList;
+
 public abstract class Db<K, V> {
 	protected String ip;
 	protected int port;
@@ -21,4 +23,6 @@ public abstract class Db<K, V> {
 	abstract public void insert(V v) throws Exception;
 	abstract public void update(V v) throws Exception;
 	abstract public void delete(K k) throws Exception;
+	abstract public V select(K k) throws Exception;
+	abstract public ArrayList<V> select() throws Exception;
 }

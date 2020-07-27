@@ -10,6 +10,12 @@ public class App {
 		} catch (Exception e) {
 			System.out.println(e.getMessage());
 		}
+		try {
+			db.delete("id01");
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			System.out.println("Delete Error ..!");
+		}
 	}
 
 }

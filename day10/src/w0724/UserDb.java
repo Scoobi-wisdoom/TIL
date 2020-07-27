@@ -1,5 +1,7 @@
 package w0724;
 
+import java.util.ArrayList;
+
 public class UserDb extends Db<String, User> {
 	
 	
@@ -14,7 +16,7 @@ public class UserDb extends Db<String, User> {
 		connect();
 		if(v.getId().equals("serom")) {
 			close();
-			throw new Exception("Dupliate ID...");
+			throw new Exception("Duplicate ID...");
 		}
 		System.out.println("Inserted: "+v);
 		close();		
@@ -31,6 +33,24 @@ public class UserDb extends Db<String, User> {
 		System.out.println("Deleted: "+k);
 		close();
 		
+	}
+	@Override
+	public User select(String k) throws Exception {
+		User user = null;
+		// k °ªÀ» ÀÌ¿ëÇØ¼­ »ç¿ëÀÚ Á¤º¸¸¦ °Ë»öÇÑ´Ù.
+		user = new User("id99", "pwd99", "ÀÌ¸»¼÷");
+		return user;
+	}
+	@Override
+	public ArrayList<User> select() throws Exception {
+		ArrayList<User> list = new ArrayList<>();
+		list.add(new User("id01", "pwd01", "ÀÌ¸»¼÷"));
+		list.add(new User("id02", "pwd02", "±è¸»¼÷"));
+		list.add(new User("id03", "pwd03", "Àå¸»¼÷"));
+		list.add(new User("id04", "pwd04", "Á¤¸»¼÷"));
+		list.add(new User("id05", "pwd05", "È«¸»¼÷"));
+				
+		return list;
 	}
 		
 }
