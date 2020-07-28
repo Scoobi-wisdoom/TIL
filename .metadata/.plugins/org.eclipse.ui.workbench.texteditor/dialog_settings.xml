@@ -6,13 +6,26 @@
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
-		<item key="selection" value="&quot;db2&quot;"/>
+		<item key="selection" value=""/>
 		<list key="findhistory">
-			<item value="&quot;db&quot;"/>
-			<item value="duplicate"/>
-			<item value="Input A Number"/>
+			<item value="insert"/>
+			<item value="closing"/>
+			<item value="visible"/>
+			<item value="signin"/>
+			<item value="app\"/>
+			<item value="status"/>
+			<item value="bt"/>
+			<item value="yellow"/>
+			<item value="upbt"/>
+			<item value="ubt"/>
+			<item value="upt"/>
+			<item value="Select"/>
+			<item value="select"/>
+			<item value="update"/>
+			<item value="selectedi"/>
 		</list>
 		<list key="replacehistory">
+			<item value="signup"/>
 			<item value="&quot;db2&quot;"/>
 		</list>
 	</section>

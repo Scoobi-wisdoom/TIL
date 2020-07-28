@@ -125,7 +125,7 @@ public class UserDb extends Db<String, User> {
 		try {
 			con = getConnection();
 			pstmt = con.prepareStatement(Sql.userSelectAll);
-			pstmt.executeQuery();
+			rset = pstmt.executeQuery();
 			while (rset.next()) {
 				String id = rset.getNString("ID");
 				String pwd = rset.getNString("PWD");
