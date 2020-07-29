@@ -6,32 +6,33 @@
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
-		<item key="selection" value=""/>
+		<item key="selection" value="removeAll"/>
 		<list key="findhistory">
-			<item value="insert"/>
-			<item value="closing"/>
-			<item value="visible"/>
-			<item value="signin"/>
-			<item value="app\"/>
-			<item value="status"/>
-			<item value="bt"/>
-			<item value="yellow"/>
-			<item value="upbt"/>
-			<item value="ubt"/>
-			<item value="upt"/>
-			<item value="Select"/>
-			<item value="select"/>
-			<item value="update"/>
-			<item value="selectedi"/>
+			<item value="removeAll"/>
+			<item value="List"/>
+			<item value="list"/>
+			<item value="remove"/>
+			<item value="flist"/>
+			<item value="ulist"/>
+			<item value="slist"/>
+			<item value="setLabel()"/>
+			<item value="list2"/>
+			<item value="process"/>
+			<item value="event"/>
+			<item value="선택한"/>
+			<item value="eventProcess"/>
+			<item value="list."/>
+			<item value="eventprocess"/>
 		</list>
 		<list key="replacehistory">
+			<item value="192.168.0.31"/>
 			<item value="signup"/>
 			<item value="&quot;db2&quot;"/>
 		</list>
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
-		<item key="DIALOG_X_ORIGIN" value="824"/>
-		<item key="DIALOG_Y_ORIGIN" value="268"/>
+		<item key="DIALOG_X_ORIGIN" value="756"/>
+		<item key="DIALOG_Y_ORIGIN" value="267"/>
 		<item key="DIALOG_WIDTH" value="288"/>
 		<item key="DIALOG_HEIGHT" value="391"/>
 		<item key="DIALOG_FONT_NAME" value="1|맑은 고딕|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|맑은 고딕"/>
