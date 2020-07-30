@@ -20,8 +20,8 @@ import java.util.ArrayList;
 public class App2 {
 
 	Frame frame;
-	Panel p1, p2, p3, sp1, sp2, sp3, sp4;
-	Button b1, b2, upbt;
+	Panel p1, p2, p3, p1sub, sp1, sp2, sp3, sp4, sp5, sp6;
+	Button bAdd, bDelete, bUpdate;
 	TextField tf1, tf2, tf3;
 	List userlistord, userlistordN, foodlistord, foodlistordN;
 	Label labeladmin, labelstatus, label, labelmember, labelfood;
@@ -55,70 +55,78 @@ public class App2 {
 		tf2 = new TextField(10);
 		tf3 = new TextField(10);
 
-		b1 = new Button("ADD");
-		b2 = new Button("SEARCH");
+		bAdd = new Button("ADD");
+		bUpdate = new Button("Update");
+		bDelete = new Button("Delete");
 
 		labelmember = new Label("회원");
 		labelfood = new Label("음식");
 		labeladmin = new Label("Admin");
+		
+		p1.setLayout(new GridLayout(2, 1));
 		p1.add(labeladmin, BorderLayout.CENTER);
+		p1sub = new Panel();
+		p1sub.setLayout(new GridLayout(1,2));
+		p1sub.add(labelmember); p1sub.add(labelfood);
+		
+		p1.add(p1sub);
 		p1.setBackground(Color.gray);
 
-		labelstatus = new Label("Status: ");
-		p3.setLayout(new BorderLayout());
-		p3.add(labelstatus);
-
+		
 		sp1 = new Panel();
-		sp1.setBackground(Color.white);
 		sp2 = new Panel();
-		sp2.setBackground(Color.gray);
+		sp3 = new Panel();
+		sp4 = new Panel();
+		sp5 = new Panel();
+		sp6 = new Panel();
+
 
 		utf1 = new TextField();
 		utf2 = new TextField();
 		utf3 = new TextField();
-		upbt = new Button("UPDATE");
-//		sp2.setLayout(new GridLayout(4,1));
-//		sp2.add(utf1); sp2.add(utf2);
-//		sp2.add(utf3); sp2.add(upbt);
-
-//		p1.add(tf1);p1.add(tf2);p1.add(tf3);
-//		p1.add(b1);p1.add(b2);
 
 		userlistord = new List();
 		userlistord.setBackground(Color.yellow);
 		sp1.setLayout(new BorderLayout());
 		sp1.add(userlistord);
+		
+		userlistordN = new List();
+		userlistordN.setBackground(Color.red);
+		sp3.setLayout(new BorderLayout());
+		sp3.add(userlistordN);
+		
 
 		foodlistord = new List();
 		foodlistord.setBackground(Color.yellow);
 		sp2.setLayout(new BorderLayout());
 		sp2.add(foodlistord);
+		
+		foodlistordN = new List();
+		foodlistordN.setBackground(Color.red);
+		sp4.setLayout(new BorderLayout());
+		sp4.add(foodlistordN);
 
 		// 가운데 화면을 나눈다.
-		p2.setLayout(new GridLayout(4, 2));
+		p2.setLayout(new GridLayout(2, 2));
 
-		p2.add(labelmember, BorderLayout.CENTER);
-		p2.setBackground(Color.gray);
+		p2.add(sp1); p2.add(sp2);
+		p2.add(sp3); p2.add(sp4);
+		p2.setBackground(Color.white);
 
-		p2.add(labelfood, BorderLayout.CENTER);
-		p2.setBackground(Color.gray);
-
-		p2.add(sp1);
-		p2.setBackground(Color.gray);
-
-		p2.add(sp2);
-		p2.setBackground(Color.gray);
-
-		p2.add(new Label("7"), BorderLayout.CENTER);
-		p2.setBackground(Color.gray);
-
-		p2.add(new Label("8"), BorderLayout.CENTER);
-		p2.setBackground(Color.gray);
-
-		// 가운데 화면을 나눈다.
-
-//		p2.setBackground(Color.blue);
+		
+		p3.setLayout(new GridLayout(3,1));
 		p3.setBackground(Color.cyan);
+		labelstatus = new Label("Status: ");
+//		p3.setLayout(new BorderLayout()); // 있고 없고 차이가 크다
+
+		// 추가, 수정, 삭제 버튼을 추가한다.
+//		sp5.setLayout(new BorderLayout());
+		sp5.add(utf1); sp5.add(utf2); sp5.add(utf3);
+		sp6.add(bAdd); sp6.add(bDelete); sp6.add(bUpdate);
+		p3.add(sp5); p3.add(sp6);
+		p3.add(labelstatus);
+		
+		
 		frame.add(p1, "North");
 		frame.add(p2, "Center");
 		frame.add(p3, "South");
@@ -174,7 +182,7 @@ public class App2 {
 	}
 
 	public void eventProcess() {
-		upbt.addActionListener(new ActionListener() {
+		bUpdate.addActionListener(new ActionListener() {
 
 			@Override
 			public void actionPerformed(ActionEvent e) {
@@ -207,21 +215,21 @@ public class App2 {
 			}
 		});
 
-		b1.addActionListener(new ActionListener() {
+		bAdd.addActionListener(new ActionListener() {
 
 			@Override
 			public void actionPerformed(ActionEvent e) {
 				insertUser();
 			}
 		});
-		b2.addActionListener(new ActionListener() {
+//		b2.addActionListener(new ActionListener() {
+//
+//			@Override
+//			public void actionPerformed(ActionEvent e) {
+//				selectUser();
 
-			@Override
-			public void actionPerformed(ActionEvent e) {
-				selectUser();
-
-			}
-		});
+//			}
+//		});
 	}
 
 	public void setLabel(String str) {

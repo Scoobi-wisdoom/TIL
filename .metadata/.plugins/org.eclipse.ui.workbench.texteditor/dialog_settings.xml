@@ -6,23 +6,23 @@
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
-		<item key="selection" value="removeAll"/>
+		<item key="selection" value="Border"/>
 		<list key="findhistory">
+			<item value="border"/>
+			<item value="2, 1"/>
+			<item value="2,1 "/>
+			<item value="Status"/>
+			<item value="status"/>
+			<item value="B1"/>
+			<item value="utf1"/>
+			<item value="주문하기"/>
+			<item value="button"/>
 			<item value="removeAll"/>
 			<item value="List"/>
 			<item value="list"/>
 			<item value="remove"/>
 			<item value="flist"/>
 			<item value="ulist"/>
-			<item value="slist"/>
-			<item value="setLabel()"/>
-			<item value="list2"/>
-			<item value="process"/>
-			<item value="event"/>
-			<item value="선택한"/>
-			<item value="eventProcess"/>
-			<item value="list."/>
-			<item value="eventprocess"/>
 		</list>
 		<list key="replacehistory">
 			<item value="192.168.0.31"/>
