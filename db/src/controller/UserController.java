@@ -51,7 +51,7 @@ public class UserController extends Controller<String, User> {
 	@Override
 	public User get(String k) throws Exception {
 		User user = null;
-		ArrayList<UserItem> list = null;
+		ArrayList<UserItem> list = new ArrayList<>();
 		Connection con = null;
 		try {
 			con = getConnection();
