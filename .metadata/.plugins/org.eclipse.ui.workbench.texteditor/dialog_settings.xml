@@ -6,8 +6,9 @@
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
-		<item key="selection" value="Border"/>
+		<item key="selection" value="get(String k)"/>
 		<list key="findhistory">
+			<item value="get(String k)"/>
 			<item value="border"/>
 			<item value="2, 1"/>
 			<item value="2,1 "/>
@@ -22,7 +23,6 @@
 			<item value="list"/>
 			<item value="remove"/>
 			<item value="flist"/>
-			<item value="ulist"/>
 		</list>
 		<list key="replacehistory">
 			<item value="192.168.0.31"/>
